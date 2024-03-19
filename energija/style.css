@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#map {
+    height: 400px;
+    margin-top: 20px;
+}
+
+
+#locationInfo {
+    margin-top: 10px;
+}
+
+#cityInfo {
+    margin-top: 10px;
+   /* display: none;  Početno sakrij dodatne informacije */
+}
+
+#cityImage {
+    max-width: 100%;
+    height: auto;
+    
+}
